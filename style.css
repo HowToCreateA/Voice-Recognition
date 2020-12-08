@@ -4,3 +4,14 @@ body {
     background: #303242;
     color: #FFFFFF;
 }
+@keyframes fade {
+ 0% {opacity: 0.5; color: white;}
+ 50% {opacity: 1.0; color: grey;}
+ 100% {opacity: 0.5; color: white;}
+}
+#span {
+ animation-name: fade;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+}
